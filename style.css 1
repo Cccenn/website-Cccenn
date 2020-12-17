@@ -1,0 +1,121 @@
+
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color:lightcyan;
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: skyblue;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+.klm-logo {
+width:250px;
+ float: left;
+ margin-right: 4px;
+ margin-top: 4px;
+ 
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 6px;
+    background-color: #dddddd;
+    overflow: hidden;
+    border-radius: 26px;
+    
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 26px;
+
+}
+
+nav li a:hover {
+    background-color: #aaaaaa;
+}
+
+nav li a.active {
+    background-color: skyblue
+    ;
+}
+
+.klm-plaatje {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  float: left;
+  width: 250px;
+ margin-top: 0px;
+
+}
+
+
+
+.h1 {
+  
+  
+
+}
+
+.zweefLinks {
+width:205px;
+ float: right;
+margin-left: 5px;
+margin-top: 7px;
+
+
+ 
+}
